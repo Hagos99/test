@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#section-1{
+    display: flex;
+    width: 100%;
+    height:700px;
+    background: rgb(197, 195, 195);
+}
+
+#section-1 .box{
+    /* border: 3px solid black; */
+    background: hsl(276, 55%, 52%);
+    width: 400px;
+    height: 600px;
+    margin-left: -50px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+
+#section-1 .box1{
+    /* border: 3px solid black; */
+    background: hsl(276, 55%, 52%);
+    width: 400px;
+    height: 500px;
+    margin-top: 200px;
+    margin-right: -230px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    opacity: 0.2;
+}
+
+#section-1 .desc{
+    margin-top: 200px;
+    margin-left: 130px;
+    /* border: 3px solid black; */
+    width:  360px;
+    height: 100px;
+    padding: 5px;
+}
+
+#section-1 .desc .info{
+    font-size: 13px;
+    font-style: italic;
+    color:whitesmoke;
+}
+
+#section-1 .screen{
+    background-color: white;
+    margin-top: 130px;
+    margin-left: -40px;
+    height: 440px;
+    width: 240px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+}
+
+#section-1 .screen .inner{
+    background-color:lightgray;
+    /* padding: 5px; */
+    /* margin-top: 130px; */
+    /* margin-left: -40px; */
+    margin: 16px 13px;
+    height: 410px;
+    width: 215px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+}
+
+#section-1 .screen .speaker{
+    width: 130px;
+    height: 10px;
+    /* border: 2px solid black; */
+    margin-top: -430px;
+    margin-left: 53px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color:white;
+    padding-top: 10px;
+}
+
+#section-1 .screen .top{
+    display: flex;
+    background-color: hsl(276, 55%, 52%);
+    width: 215px;
+    height: 65px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border: 2px solid black;  */
+}
+#section-1 .screen .top .prev{
+    /* border: 2px solid black; */
+    padding: 0px;
+    /* height:  20;
+    width: 5px;   */
+    margin-left: 0px;
+}
+#section-1 .screen .top .prev img{
+    margin-top: 30px;
+    margin-left: 0px;
+    height:  20px;
+    width: 20px;
+}
+
+
+#section-1 .screen .top .img{
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+#section-1 .screen .top .img img{
+    margin-top: 26px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border: 2px solid white;
+    /* padding: 3px; */
+    height: 30px;
+    width: 40px;
+}
+
+#section-1 .screen .top .name{
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    margin-left: 5px;
+    padding: 5px
+}
+
+#section-1 .screen .top .name .indv{
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    font-size: 12px;
+    color: white;
+}
+
+#section-1 .screen .top .name .status{
+    /* border: 1px solid black; */
+    font-size: 8px;
+    color: white;
+}
+
+#section-1 .screen .top .opt{
+    /* border: 1px solid black; */
+    margin-top: 35px;
+    margin-left: 17px;
+}
+#section-1 .screen .inner .chat-1{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 130px;
+    height: 25px;
+    margin: 5px 5px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(202, 191, 191);
+}
+
+#section-1 .screen .inner .chat-1 .message-1{
+    font-size: 10px;
+    color: blueviolet;
+}
+
+#section-1 .screen .inner .chat-2{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 130px;
+    height: 25px;
+    margin: 5px 5px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(202, 191, 191);
+}
+
+#section-1 .screen .inner .chat-2 .message-2{
+    font-size: 10px;
+    color: blueviolet;
+}
+
+#section-1 .screen .inner .dog-pics{
+    display: flex;
+    margin-left: 115px;
+}
+
+#section-1 .screen .inner .dog-pics img{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#section-1 .screen .inner .chat-3{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 130px;
+    height: 25px;
+    margin: 5px 5px;
+    margin-left: 66px;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    background-color:whitesmoke;
+}
+
+#section-1 .screen .inner .chat-3 .message-3{
+    font-size: 10px;
+    color: black;
+
+}
+
+#section-1 .screen .inner .chat-4{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 70px;
+    height: 15px;
+    margin: 5px 5px;
+    margin-left: 126px;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    background-color:whitesmoke;
+}
+
+#section-1 .screen .inner .chat-4 .message-4{
+    font-size: 10px;
+    color: black;
+}
+
+#section-1 .screen .inner .chat-5{
+    /* border: 2px solid black; */
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    margin: 5px 5px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(202, 191, 191);
+}
+
+#section-1 .screen .inner .chat-5 .message-5{
+    font-size: 10px;
+    color: blueviolet;
+}
+
+#section-1 .screen .inner .chat-6{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    /* border: 2px solid black; */
+    margin: 5px 5px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: blueviolet;
+}
+
+#section-1 .screen .inner .chat-6 .bullet{
+    width: 25px;
+    height: 10px;
+    padding: 5px;
+}
+
+#section-1 .screen .inner .chat-6 .duration{
+    padding: 8px;
+    font-size: 10px;
+}
+
+#section-1 .screen .inner .chat-6 .price{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+#section-1 .screen .inner .chat-7{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    /* border: 2px solid black; */
+    margin: 5px 5px;
+    border-radius: 15px;
+    border-bottom-left-radius: 5px;
+    background-color: blueviolet;
+}
+
+#section-1 .screen .inner .chat-7 .bullet2{
+    width: 25px;
+    height: 10px;
+    padding: 5px;
+}
+
+#section-1 .screen .inner .chat-7 .duration2{
+    padding: 8px;
+    font-size: 10px;
+}
+
+#section-1 .screen .inner .chat-7 .price2{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold; 
+    margin-left: 18px;
+}
+
+#section-1 .screen .inner input{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 12px;
+    width: 180px;
+    border: 0px solid white;
+}
+
+#section-1 .screen .inner .type img{
+    margin-left: -30px
+}
+
+
